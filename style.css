@@ -1,0 +1,157 @@
+* {
+    box-sizing:border-box;
+}
+
+html,
+body {
+    height: 100%;
+    border-color: rgb(245, 239, 237);
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    color: rgb(173, 23, 23);
+    background: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+    width: 100%;
+}
+
+h1,
+h2 {
+background: linear-gradient(90deg, #fdfdfd, #ffffff,rgb(255, 255, 255), rgba(247, 247, 247, 0.993), rgb(221, 50, 50), rgb(221, 17, 17));
+    margin: 0 0 12px;
+}
+
+.card {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.493);
+    border: 1px solid ;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 8px;
+    font-weight: 600
+}
+
+input {
+    background: linear-gradient(90deg, #fdfdfd, #bebebe,rgb(247, 247, 247), rgba(235, 231, 231, 0.288), rgb(235, 222, 222), rgb(255, 255, 255));
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    border: 1px solid #020202;
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #030303;
+    box-shadow: 0 0 0 3px #0001;
+}
+
+.actions {
+    margin-top: 12px;
+}
+
+button {
+    padding: 10px 14px;
+    border: 1px solid #ff0606;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    margin-right: 8px;
+}
+
+button:hover {
+    filter: brightness(0.98)
+}
+
+.msg {
+    min-height: 1.2em;
+    margin-top: 8px;
+    font-size: .95rem;
+    color:rgb(248, 12, 12) ;
+}
+
+.msg.ok {
+    color: rgb(245, 245, 245);
+}
+
+.msg.err {
+    color: rgb(252, 20, 20);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+th,
+td {
+    border: 1px solid ;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #ffffff7c;
+}
+
+tr:hover {
+    background: #000000;
+}
+
+.destaque strong {
+    padding: 2px 8px;
+    border-radius: 8px
+}
+
+.ok-badge {
+    background: #eb0c0c;
+    color: rgb(247, 247, 247);
+}
+
+.warn-badge {
+    background: #c9c4b7;
+    color: #a70;
+}
+
+.err-badge {
+    background: #ffe9e9;
+    color: #a00;
+}
+
+.acao {
+    color: rgb(15, 30, 44);
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 16px 24px;
+    text-align: center;
+    color: rgb(red, green, blue);
+    border-top: 1px solid ;
+    background: #fff;
+}
+
